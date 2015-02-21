@@ -14,6 +14,7 @@
 		DFAEF05E1A881B21007AA7B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFAEF05D1A881B21007AA7B3 /* Images.xcassets */; };
 		DFAEF0611A881B21007AA7B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFAEF05F1A881B21007AA7B3 /* LaunchScreen.xib */; };
 		DFAEF06D1A881B21007AA7B3 /* TestingGroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAEF06C1A881B21007AA7B3 /* TestingGroundTests.m */; };
+		DFAEF0771A882743007AA7B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAEF0761A882743007AA7B3 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		DFAEF0661A881B21007AA7B3 /* TestingGroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingGroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAEF06B1A881B21007AA7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFAEF06C1A881B21007AA7B3 /* TestingGroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingGroundTests.m; sourceTree = "<group>"; };
+		DFAEF0761A882743007AA7B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFAEF0771A882743007AA7B3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		DFAEF0441A881B21007AA7B3 = {
 			isa = PBXGroup;
 			children = (
+				DFAEF0761A882743007AA7B3 /* Foundation.framework */,
 				DFAEF04F1A881B21007AA7B3 /* TestingGround */,
 				DFAEF0691A881B21007AA7B3 /* TestingGroundTests */,
 				DFAEF04E1A881B21007AA7B3 /* Products */,
@@ -83,9 +87,9 @@
 			children = (
 				DFAEF0541A881B21007AA7B3 /* AppDelegate.h */,
 				DFAEF0551A881B21007AA7B3 /* AppDelegate.m */,
+				DFAEF05A1A881B21007AA7B3 /* Main.storyboard */,
 				DFAEF0571A881B21007AA7B3 /* ViewController.h */,
 				DFAEF0581A881B21007AA7B3 /* ViewController.m */,
-				DFAEF05A1A881B21007AA7B3 /* Main.storyboard */,
 				DFAEF05D1A881B21007AA7B3 /* Images.xcassets */,
 				DFAEF05F1A881B21007AA7B3 /* LaunchScreen.xib */,
 				DFAEF0501A881B21007AA7B3 /* Supporting Files */,
@@ -412,6 +416,7 @@
 				DFAEF0721A881B21007AA7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFAEF0731A881B21007AA7B3 /* Build configuration list for PBXNativeTarget "TestingGroundTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				DFAEF0751A881B21007AA7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
